@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7fafc"/>
+  <rect x="48" y="44" width="1104" height="587" rx="20" fill="#ffffff" stroke="#d8e2ec"/>
+  <text x="82" y="94" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#142033">Monthly Cost Model</text>
+  <text x="82" y="128" font-family="Inter, Arial, sans-serif" font-size="18" fill="#5f7084">Three production workloads with retry, fallback, and observability overhead</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="82" y="174" width="1036" height="64" rx="10" fill="#102a43"/>
+    <text x="112" y="214" font-size="18" font-weight="700" fill="#ffffff">Workload</text>
+    <text x="402" y="214" font-size="18" font-weight="700" fill="#ffffff">Token Plan</text>
+    <text x="636" y="214" font-size="18" font-weight="700" fill="#ffffff">CrazyRouter</text>
+    <text x="846" y="214" font-size="18" font-weight="700" fill="#ffffff">OpenRouter Baseline</text>
+    <g font-size="18" fill="#142033">
+      <rect x="82" y="252" width="1036" height="84" rx="10" fill="#eef7ff"/>
+      <text x="112" y="286" font-weight="700">Support bot</text>
+      <text x="112" y="312" fill="#5f7084">High read volume</text>
+      <text x="402" y="300">80M tokens</text>
+      <text x="636" y="300" font-weight="700" fill="#126b4f">$159.7</text>
+      <text x="846" y="300" font-weight="700" fill="#7a3b10">$214.6</text>
+      <rect x="82" y="352" width="1036" height="84" rx="10" fill="#ffffff" stroke="#e4ebf2"/>
+      <text x="112" y="386" font-weight="700">Coding assistant</text>
+      <text x="112" y="412" fill="#5f7084">GPT-4 Turbo class</text>
+      <text x="402" y="400">40M tokens</text>
+      <text x="636" y="400" font-weight="700" fill="#126b4f">$486.2</text>
+      <text x="846" y="400" font-weight="700" fill="#7a3b10">$673.2</text>
+      <rect x="82" y="452" width="1036" height="84" rx="10" fill="#eef7ff"/>
+      <text x="112" y="486" font-weight="700">Batch generation</text>
+      <text x="112" y="512" fill="#5f7084">Gemini Pro class</text>
+      <text x="402" y="500">120M tokens</text>
+      <text x="636" y="500" font-weight="700" fill="#126b4f">$73.9</text>
+      <text x="846" y="500" font-weight="700" fill="#7a3b10">$84.6</text>
+    </g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#5f7084">
+    <circle cx="90" cy="584" r="6" fill="#2f80a7"/>
+    <text x="108" y="590">Use real traffic mix, retry rate, fallback rate, and logging overhead before final vendor selection.</text>
+  </g>
+</svg>
