@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7fafc"/>
+  <rect x="54" y="44" width="1092" height="587" rx="22" fill="#ffffff" stroke="#dae4ee"/>
+  <text x="88" y="96" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#142033">Secure Router Admin Workflow</text>
+  <text x="88" y="129" font-family="Inter, Arial, sans-serif" font-size="18" fill="#607080">Separate profiles, task permissions, router quotas, and audit review for multi-account teams.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#2f80a7"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="96" y="214" width="205" height="126" rx="16" fill="#eef7ff" stroke="#b9dced"/>
+    <text x="126" y="260" font-size="20" font-weight="700" fill="#142033">Operator</text>
+    <text x="126" y="292" font-size="16" fill="#607080">Finance / Dev / Contractor</text>
+    <rect x="384" y="176" width="230" height="200" rx="16" fill="#f0fbf6" stroke="#bee8d3"/>
+    <text x="418" y="222" font-size="20" font-weight="700" fill="#142033">DICloak Profiles</text>
+    <text x="418" y="254" font-size="16" fill="#607080">Isolated sessions</text>
+    <text x="418" y="282" font-size="16" fill="#607080">Permission groups</text>
+    <text x="418" y="310" font-size="16" fill="#607080">Credential masking</text>
+    <rect x="704" y="176" width="210" height="200" rx="16" fill="#fff7ed" stroke="#ffd7aa"/>
+    <text x="738" y="222" font-size="20" font-weight="700" fill="#142033">LLM Router</text>
+    <text x="738" y="254" font-size="16" fill="#607080">CrazyRouter</text>
+    <text x="738" y="282" font-size="16" fill="#607080">OpenRouter</text>
+    <text x="738" y="310" font-size="16" fill="#607080">Model policies</text>
+    <rect x="980" y="214" width="122" height="126" rx="16" fill="#eef2ff" stroke="#c7d2fe"/>
+    <text x="1008" y="260" font-size="20" font-weight="700" fill="#142033">Audit</text>
+    <text x="1008" y="292" font-size="16" fill="#607080">Logs</text>
+  </g>
+  <g stroke="#2f80a7" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M302 277 H376"/>
+    <path d="M615 277 H696"/>
+    <path d="M916 277 H972"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="17" fill="#142033">
+    <rect x="174" y="472" width="852" height="70" rx="14" fill="#102a43"/>
+    <text x="214" y="515" fill="#ffffff">Least privilege + separated browser sessions + router-side quotas reduce credential exposure.</text>
+  </g>
+</svg>
