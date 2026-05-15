@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f7fafc"/>
+  <rect x="56" y="46" width="1088" height="583" rx="22" fill="#ffffff" stroke="#dce6ef"/>
+  <text x="90" y="98" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#142033">CrazyRouter vs OpenRouter Decision Tree</text>
+  <text x="90" y="131" font-family="Inter, Arial, sans-serif" font-size="18" fill="#607080">Choose by team stage, reliability target, governance need, and measured cost.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#607080"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="450" y="170" width="300" height="72" rx="18" fill="#102a43"/>
+    <text x="492" y="214" font-size="20" font-weight="700" fill="#ffffff">What is the priority?</text>
+    <rect x="130" y="320" width="260" height="94" rx="16" fill="#eef7ff" stroke="#b9dced"/>
+    <text x="160" y="357" font-size="19" font-weight="700" fill="#142033">Fast model testing</text>
+    <text x="160" y="386" font-size="16" fill="#607080">Prototype and exploration</text>
+    <rect x="470" y="320" width="260" height="94" rx="16" fill="#f0fbf6" stroke="#bee8d3"/>
+    <text x="500" y="357" font-size="19" font-weight="700" fill="#142033">Production control</text>
+    <text x="500" y="386" font-size="16" fill="#607080">Fallback + routing rules</text>
+    <rect x="810" y="320" width="260" height="94" rx="16" fill="#fff7ed" stroke="#ffd7aa"/>
+    <text x="840" y="357" font-size="19" font-weight="700" fill="#142033">Deep governance</text>
+    <text x="840" y="386" font-size="16" fill="#607080">Cloud compliance controls</text>
+    <rect x="130" y="500" width="260" height="72" rx="16" fill="#ffffff" stroke="#dce6ef"/>
+    <text x="168" y="544" font-size="20" font-weight="700" fill="#2f80a7">Start OpenRouter</text>
+    <rect x="470" y="500" width="260" height="72" rx="16" fill="#ffffff" stroke="#dce6ef"/>
+    <text x="512" y="544" font-size="20" font-weight="700" fill="#126b4f">Start CrazyRouter</text>
+    <rect x="810" y="500" width="260" height="72" rx="16" fill="#ffffff" stroke="#dce6ef"/>
+    <text x="842" y="544" font-size="20" font-weight="700" fill="#7a3b10">Evaluate cloud stack</text>
+  </g>
+  <g stroke="#607080" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M548 242 C420 274 330 292 260 320"/>
+    <path d="M600 242 V320"/>
+    <path d="M652 242 C780 274 870 292 940 320"/>
+    <path d="M260 414 V500"/>
+    <path d="M600 414 V500"/>
+    <path d="M940 414 V500"/>
+  </g>
+  <text x="90" y="612" font-family="Inter, Arial, sans-serif" font-size="16" fill="#607080">Final check: run a side-by-side pilot with real prompts before signing off.</text>
+</svg>
